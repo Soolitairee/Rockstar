@@ -1,0 +1,117 @@
+a {
+    text-decoration: none !important;
+    color:inherit;
+}
+body {
+    background: #000;
+}
+.page-section {
+    padding: 3rem 0;
+}
+.axtarish a  {
+    color: white;
+}
+.nav-link {
+    display: flex;
+    flex-direction: column;
+   
+}
+.nav-link a:not(:first-child)  {
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+    transition: 0.5s;
+}
+.nav-link a:not(:first-child):hover {
+    color: pink;
+}
+.axtarish {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    width: 170px;
+
+    
+}
+.axtarish input {
+    background-color: transparent;
+    border: 0px;
+    outline: none;
+    width: 150px;
+}
+.sag-menu {
+   
+    width: 120px;
+    height: 100px;
+}
+.logo img {
+    width: 100%;
+}
+.sag-menu a {
+    
+    text-decoration: none;
+    color: black;
+}
+.sag-menu-ici {
+    display: flex;
+    flex-direction: column;
+}
+.karusel-bash {
+    background-color: black;
+    position: relative;
+}
+.karusel-img img {
+    width: 100%;
+    display: block;    
+}
+.karusel-surush {
+    position: absolute;
+    right: 48px;
+    bottom: 14px;
+    width: 200px;
+}
+.karusel-surush button {
+    border:0;
+    outline: 0;
+    width: 48px;
+    height: 2px;
+}
+.karusel-surush button:not(:last-child) {
+    margin-right: 8px;
+}
+.shekil-sagi {
+    color:white;
+}
+.shekil-sagi a {
+    display: inline-block;
+    padding: 1rem 3rem;
+    border: 1px solid white;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .3s;
+}
+.shekil-sagi a:hover {
+    background:orange;
+    border-color: orange;
+    color:black;
+}
+.news img {
+    width: 100%;
+    display: block;
+}
+.news {
+    border:1px solid rgba(255, 255, 255, 0.226)
+}
+.news-caption {
+    padding: 0.75rem;
+    color:white;
+}
+.news-caption:first-child {
+    font-weight: 600;
+}
+.news-caption p {
+    font-size: 32px;
+    letter-spacing: 0;
+    padding-top: 12px;
+}
